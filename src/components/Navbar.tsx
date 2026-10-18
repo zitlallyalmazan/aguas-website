@@ -4,8 +4,9 @@ function Navbar({
   scrollToSection: (sectionId: string) => void;
 }) {
   return (
-    <nav className="w-full px-4 py-12 bg-amber-100">
-      <ul className="flex w-full justify-between text-xl">
+    <nav className="w-full px-4 py-12 bg-amber-100 justify-between flex items-center gap-4">
+      <img alt='aguas-website-logo' src='./src/assets/aguas-website-logo.svg' className="size-12"/>
+      <ul className="hidden md:flex md:w-full md:justify-between md:text-xl">
         <li>
           <ul className="flex gap-4">
             <li>
