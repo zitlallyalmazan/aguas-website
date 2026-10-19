@@ -1,6 +1,6 @@
 function Prices() {
     return (
-        <section id="prices" className="p-96 mx-auto bg-amber-700">
+        <section id="prices" className="px-4 py-96 mx-auto bg-amber-700">
             <div>Prices/Menu Section</div>
         </section>
     )
